@@ -1,0 +1,436 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:sans-serif;
+}
+a{
+	color:#fff;
+	text-decoration:none;
+}
+
+h2{
+	text-align: center;
+	color: #d7f44cc4;
+	font-size: 27px;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-top: 21px;
+	margin-bottom: 21px;
+	letter-spacing: 2.4px;
+	
+}
+h5{
+    text-align: center;
+    color: #f26753;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 11px;
+}
+
+h6{
+	
+	color:#fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-weight: 600;	
+}
+span{
+	text-align:center;
+	color:#fff;
+}
+p{
+	text-align: center;
+	color: #ffffff9e;
+	font-size: 20px;
+	line-height: 32px;
+	
+	letter-spacing:2px;
+}
+
+section{
+	padding-top:90px;
+	padding-bottom:90px;
+	background:black;
+}
+.container{
+	width:1174px;
+	
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+}
+.content > p{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.col-33{
+	width:33%;
+	float:left;
+	text-align:center;
+}
+.col-25{
+	width:25%;
+	float:left;
+	text-align:center;
+}
+.col-50{
+	width:50%;
+	float:left;
+	text-align:center;
+}
+i{
+	font-size: 30px;
+	color: #F25A44;
+	margin-top: 45px;
+	
+}
+.btn{
+	padding: 10px 25px;
+    background: #f26753;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 600;
+	border: 1px solid #5de640;
+	border-radius: 25px 0 25px 0;
+	text-transform:uppercase;
+}
+
+/* header part s */
+header{
+	padding-top:15px;
+	padding-bottom:5px;
+	width:100%;
+	position:fixed;
+	background:#0000006e;
+	overflow:hidden;
+	z-index:999;
+}
+.company{
+	padding-left:35px;
+	float:left;
+	overflow:hidden;
+}
+.company img{
+	float: left;
+		
+	height: 58px;
+	width: 52px;
+	
+}
+.company h1{
+	float: left;
+	padding-left: 4px;
+	font-size: 24px;
+	letter-spacing: 3px;
+	margin-top: 14px;
+	color:lightgrey;
+}
+#main-menu{
+	padding-right:25px;
+	float:right;
+}
+#main-menu ul{
+	list-style:none;
+	
+}#main-menu ul li{
+	float: left;
+	margin: 14px;
+	
+}
+#main-menu ul li a{
+	padding: 10px 9px 10px 9px;
+	
+	font-size: 18px;
+	letter-spacing: 1.5px;
+}	
+#main-menu ul li a:hover{
+	background:#f26753;
+	color:black;
+	border-radius: 24px 0 25px 0;
+	padding: 14px;
+}
+
+/* <!-- content part --> */
+
+#hdbg{
+	background-image: url(images/himgone.png);
+	width: auto;
+
+	background-repeat: no-repeat;
+	padding-top:279px;
+}
+#hdbg p{
+	text-align:left;
+    margin-bottom: 6px;
+}
+#hdbg  h2{
+	text-align:left;
+	margin-top:12px;
+	color: #f26753;
+	color: #f26753;
+}
+
+/* about me part */
+
+
+/* services part */
+.col-33 p{
+	width:98%;
+}
+
+/* progect part */
+
+#project  img {
+	
+	width: 379px;
+    height: 260px;
+}
+
+
+.bgone > button{
+	float:left;
+	margin-top: 19px;
+	margin-left:10px;
+	text-align:center;
+}
+
+
+
+/* services part */
+#servie{
+	background-image:url(images/bg1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+/* review part */
+#review{
+	background-image: linear-gradient(to right, rgba(152, 40, 92, 0.74), rgba(8, 9, 21, 0.67)), url(images/bg3.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+.pb{
+	margin-top: 59px;
+	margin-bottom: 100px;
+	padding-bottom: 193px;
+}
+/* contact part */
+#contact{
+	background-image:url(images/bg4.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+/* progress bar */
+.progress-bar h6{
+	text-align:left;
+	
+}
+.progress{
+	height: 11px;
+	width: 97%;
+	Background: gray;
+	margin-top: 10px;
+	margin-bottom: 27px;
+	border-radius: 5px;
+}
+.progress:hover{
+	cursor:pointer;
+}
+.progress .pgone{
+	background:#00ffab;
+	height:11px;
+	width:86%;
+	border-radius:5px;
+
+}
+
+.progress .pgtwo{
+	background:#0ce3ee;
+	height:11px;
+	width:80%;
+	border-radius:5px;
+}
+.progress .pgthree{
+	background:red;
+	height:11px;
+	width:95%;
+	border-radius:5px;
+}
+.progress .pgfour{
+	background:#1bff14;
+	height:11px;
+	width:65%;
+	border-radius:5px;
+}
+.progress .pgfive{
+	background:orange;
+	height:11px;
+	width:75%;
+	border-radius:5px;
+}
+.progress .pgsix{
+	background:#f26753;
+	height:11px;
+	width:90%;
+	border-radius:5px;
+}
+.sr{
+	background: #827c7c4a;
+	margin-right: 3px;
+	margin-bottom: 5px;
+	height: 312px;
+	border-radius:5px;
+}
+.sr:hover{
+	background-color:#f267533d;
+	
+	
+}
+.ig{
+	background:black;
+	position:relative;
+	cursor:pointer;
+}
+.view-button{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: gray;
+    padding-top: 126px;
+    opacity: 2&;
+    opacity: 50%;
+	padding-bottom:135px;
+	margin-left: 3px;
+    margin-right: 3px;
+}
+
+.ig:hover .view-button{
+	display:none;
+	
+}	
+
+
+/* contact form */
+#Name{
+	height: 52px;
+	width: 97%;
+	border-radius: 11px;
+	color: #f26753;
+	font-size: 23px;
+	padding-left: 18px;
+	background: #262020a8;
+	margin-bottom: 19px;
+	border: none;;
+}
+#email{
+	height: 52px;
+	width: 97%;
+	border-radius: 11px;
+	color: #f26753;
+	font-size: 23px;
+	padding-left: 18px;
+	background: #262020a8;
+	margin-bottom: 19px;
+	border: none;;
+}
+#number{
+	height: 52px;
+	width: 97%;
+	border-radius: 11px;
+	color: #f26753;
+	font-size: 23px;
+	padding-left: 18px;
+	background: #262020a8;
+	margin-bottom: 19px;
+	border: none;;
+}
+#message{
+
+	border-radius: 11px;
+	color: #f26753;
+	font-size: 23px;
+	background: #262020a8;
+	margin-bottom: 19px;
+	border: none;
+	width: 92%;
+}
+.col-33 h4{
+	color: #b2c847;
+	letter-spacing: 5px;
+	margin-top: 16px;
+	margin-bottom: 5px;
+}
+footer{
+	background: #000000a8;
+	height: 53px;
+	overflow:hidden;
+	
+}
+.col-50 ul{
+	list-style:none;
+}
+.col-50 ul li{
+	float:right;
+}
+.col-50 ul li a i{
+	
+    margin-top: 0px;
+    margin-right: 42px;
+	margin-top: 13px;
+	margin-bottom: 10px;
+	
+	
+}
+.haramgada{
+	margin-top:21px;
+	color:#fff;
+	
+	
+}
+.btn:hover{
+	cursor: pointer;
+	background: #b95041;
+    background-color: rgb(185, 80, 65);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+	color: #fff;
+}
+/* @ meadia query start from here */
+
+@media (max-width:570px){
+	 img, .col-50, .col-25, .col-33{
+		width:100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
